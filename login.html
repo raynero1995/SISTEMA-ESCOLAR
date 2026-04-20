@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EBD Digital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <div class="login-card">
+        <div class="login-logo">
+            <span class="icon is-large">
+                <i class="fas fa-bible fa-3x"></i>
+            </span>
+            <h1 class="title is-4 mt-3" style="color: #2c3e50;">EBD Digital</h1>
+            <p class="subtitle is-6">Acesso para Professores</p>
+        </div>
+
+        <form action="/login" method="POST">
+            <div class="field">
+                <label class="label">E-mail</label>
+                <div class="control has-icons-left">
+                    <input class="input is-medium" type="email" placeholder="exemplo@email.com" required>
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Senha</label>
+                <div class="control has-icons-left">
+                    <input class="input is-medium" type="password" placeholder="********" required>
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="field mt-5">
+                <button class="button is-primary is-fullwidth is-medium has-text-weight-bold">
+                    ENTRAR
+                </button>
+            </div>
+
+            <div class="has-text-centered mt-4">
+                <a href="#" class="is-size-7 has-text-grey">Esqueceu sua senha?</a>
+                
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
