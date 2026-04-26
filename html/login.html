@@ -6,11 +6,22 @@
     <title>Login - EBD Digital</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     
     
 </head>
 <body>
+<!--Organização do cabeçalho do site as navegações na arte superior do site-->
+<header>
+<div class="cabecalho">
+<a href="Home">Home</a>
+<a href="Professores">Professores</a>
+<a href="Alunos">Alunos</a>
+<a href="Salas de aula">Salas de aula</a>
+
+</div>
+
+</header>
 
     <div class="login-card">
         <div class="login-logo">
@@ -20,7 +31,9 @@
             <h1 class="title is-4 mt-3" style="color: #2c3e50;">EBD Digital</h1>
             <p class="subtitle is-6">Acesso para Professores</p>
         </div>
-
+        
+        <img class="imagem-inicial" src="Imagens/Texto inicial.png" alt="">  <!-- Imagem de inicio do site -->
+        <button class="botão-login" >Instruções</button>
         <form action="/login" method="POST">
             <div class="field">
                 <label class="label">E-mail</label>
@@ -31,7 +44,7 @@
                     </span>
                 </div>
             </div>
-
+            
             <div class="field">
                 <label class="label">Senha</label>
                 <div class="control has-icons-left">
@@ -53,7 +66,9 @@
                 
             </div>
         </form>
-    </div>
 
+    </div>
+   
+             
 </body>
 </html>
